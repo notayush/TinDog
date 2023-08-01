@@ -1,0 +1,166 @@
+#title{
+    background-color: #ff4c68;
+}
+
+#tindog{
+    font-family: 'ubuntu';
+    font-size: 28px;  
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+     font-size: 3rem;
+     line-height: 1.6;
+     color: rgb(255, 255, 255);
+
+
+}
+
+h2{
+    font-size: 2rem ;
+    
+}
+
+body{
+    font-family: "montserrat";
+}
+
+
+/* nav */
+
+.navbar{
+padding-bottom: 4rem;
+}
+
+.nav-item{
+padding: 0 15px ;
+}
+.nav-link{
+    font-family: "montserrat-light";
+    font-size: 1.2rem;
+}
+
+
+
+.download-button{
+margin: 5% 3% 5% 0%;
+}
+
+
+/* title-image */
+
+.title-img{
+    width: 20%;
+   right:30%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+
+
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    font-size: small;
+    position: relative;
+    background-color: white;
+    
+}
+
+#features h3 {
+    font-size: 1.5 rem;
+}
+
+#features p {
+     color: #8f8f8f;
+}
+
+#features i {
+    color: hsl(7, 80%, 69%);;
+}
+
+#features i:hover {
+    color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: aliceblue;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 80%;
+    margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+.press-logo{
+    width: 15%;
+    margin: 1%;
+}
+
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+.card{
+    margin-right: 20px;
+}
+
+
+
+@media (max-width : 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        width: 50%;
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+/* cte */
+
+#cta{
+    color: aliceblue;
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+   
+    
+
+}
+#cta h3{
+  
+    font-size: 250%;
+    margin: 10%;
+}
+
+#footer{
+    padding: 8%;
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
+
+#footer i{
+    padding: 10px;
+}
